@@ -6,9 +6,7 @@
       { "src": "prof/**", "use": "@vercel/static" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/index.html" },
-      { "src": "style.css", "use": "@vercel/static" },
-      { "src": "prof/**", "use": "@vercel/static" }
+      { "src": "/(.*)", "dest": "/index.html" }
     ]
   }
   
