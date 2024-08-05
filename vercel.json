@@ -1,9 +1,8 @@
 {
     "version": 2,
     "builds": [
-      { "src": "profile.html", "use": "@vercel/static" },
-      { "src": "card.css", "use": "@vercel/static" },
-      { "src": "picture 2.jpg", "use": "@vercel/static" },
+      { "src": "index.html", "use": "@vercel/static" },
+      { "src": "style.css", "use": "@vercel/static" },
       { "src": "prof/**", "use": "@vercel/static" }
     ],
     "routes": [
